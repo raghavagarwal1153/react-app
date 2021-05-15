@@ -17,3 +17,19 @@ ReactDOM.render(<><h1>keshav agarwal</h1>
   document.getElementById("root")
   )
   ```
+#### App.jsx
+```javascript
+function add(a,b){
+    return a+b;
+}
+function sub(a,b){
+    return a-b;
+}
+function mul(a,b){
+    return a*b;
+}
+function div(a,b){
+    return a/b;
+}
+export {add,sub,mul,div}
+```
